@@ -1,4 +1,4 @@
-# Fix Stupid Idiot Udemy Video Controls
+# Fix Udemy Video Controls
 
 ## Description
 
