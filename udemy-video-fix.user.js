@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Udemy Ultimate Video Controls Fix
 // @namespace    https://github.com/Equiel-1703
+// @contributor  https://github.com/Eljav04
 // @version      2.0.0
 // @description  Class-agnostic fix for stuck Udemy video controls. Anchors to the HTML5 video tag.
 // @author       Henrique Rodrigues Barraz (Fixed by Gemini)
