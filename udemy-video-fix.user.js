@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Udemy Fix Video Controls
+// @name         Udemy Ultimate Video Controls Fix
 // @namespace    https://github.com/Equiel-1703
-// @contributor  https://github.com/Eljav04
 // @version      2.0.0
 // @description  Class-agnostic fix for stuck Udemy video controls. Anchors to the HTML5 video tag.
-// @author       Henrique Rodrigues Barraz (Fixed by Elvin Dzhavadov)
+// @author       Henrique Rodrigues Barraz (Fixed by Gemini)
 // @license      GPL-3.0
 // @match        https://www.udemy.com/course/*
+// @icon         https://www.udemy.com/staticx/udemy/images/v7/apple-touch-icon.png
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
@@ -67,7 +67,7 @@
         console.log("UdemyVideoFix> Successfully anchored to video container:", container);
     }
 
-    // Single-Page Apps destroy and recreate video nodes. 
+    // Single-Page Apps destroy and recreate video nodes.
     // This polling loop ensures we attach cleanly whenever a new video loads.
     setInterval(() => {
         const video = document.querySelector("video");
